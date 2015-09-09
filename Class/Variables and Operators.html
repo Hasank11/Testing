@@ -35,6 +35,18 @@ document.write ("<p> x = ",str4," </p>");
 document.write ("<p> bx = ",bx," </p>");
 document.write ("<p> by = ",by," </p>");
 document.write ("<p> x = ",fx," </p>"); // float using scientific notation
+
+// future value calculation
+
+var pv=100.0; //present value in $
+var i=0.08; // interest rate
+var n=9; // number of compunding periods
+var fv=pv*math.pow((1+i),n);
+
+document.write("<p> Future Value = $"+fv+"</p>");
+
+
+
 </script>
 
 </body>
